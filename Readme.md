@@ -33,10 +33,17 @@ Customizations:
 ### Set up CMSSW
 
 ```bash
-cmsrel CMSSW_10_6_19_patch2
-cd CMSSW_10_6_19_patch2/src
+cmsrel CMSSW_10_6_30
+cd CMSSW_10_6_30/src
 cmsenv
 ```
+
+### Use an updated onnxruntime package
+
+```bash
+bash <(curl -s https://raw.githubusercontent.com/colizz/Customized_NanoAOD/master/PhysicsTools/NanoTuples/scripts/install_onnxruntime.sh)
+```
+
 
 ### Get customized NanoAOD producers
 

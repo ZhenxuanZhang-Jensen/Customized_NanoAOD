@@ -14,6 +14,7 @@ pfMassDecorrelatedDeepHWWV1JetTags = boostedJetONNXJetTagsProducer.clone(
     model_path = 'PhysicsTools/NanoTuples/data/DeepHWW-MD/ak8/V01/model.onnx',
     flav_names = ["probHww4q", "probHww3q", "probHwwevqq", "probHwwmvqq", "probHwwleptauevqq", "probHwwleptaumvqq", "probHwwhadtauvqq",
                   "probQCDbb", "probQCDcc", "probQCDb", "probQCDc", "probQCDothers"],
+    debugMode = False,
 )
 
 # declare all the discriminators
