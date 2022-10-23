@@ -38,17 +38,16 @@ cd CMSSW_10_6_30/src
 cmsenv
 ```
 
-### Use an updated onnxruntime package
-
-```bash
-bash <(curl -s https://raw.githubusercontent.com/colizz/Customized_NanoAOD/master/PhysicsTools/NanoTuples/scripts/install_onnxruntime.sh)
-```
-
-
 ### Get customized NanoAOD producers
 
 ```bash
 git clone git@github.com:gqlcms/Customized_NanoAOD.git .
+```
+
+### Use an updated onnxruntime package (before compiling the code)
+
+```bash
+./PhysicsTools/NanoTuples/scripts/install_onnxruntime.sh
 ```
 
 ### Compile
