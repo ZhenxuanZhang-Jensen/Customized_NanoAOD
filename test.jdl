@@ -1,0 +1,19 @@
+Executable = test.sh
+Universe = vanilla
+Notification = ERROR
+Should_Transfer_Files = YES
+WhenToTransferOutput = ON_EXIT
+Transfer_Input_Files = test.sh
+x509userproxy = $ENV(X509_USER_PROXY)
+getenv      = True
++JobFlavour = "espresso"
+Output = log/GluGluToRadionToHHTo2G2WTo2G4Q_M-3000/log_$(Cluster)_$(Process)_37AA7545DB62.stdout
+Error  = log/GluGluToRadionToHHTo2G2WTo2G4Q_M-3000/log_$(Cluster)_$(Process)_37AA7545DB62.stdout
+Log  = log/GluGluToRadionToHHTo2G2WTo2G4Q_M-3000/log_$(Cluster)_$(Process)_37AA7545DB62.stdout
+Arguments = $(Cluster) $(Process) /store/mc/RunIISummer20UL17MiniAODv2/GluGluToRadionToHHTo2G2WTo2G4Q_M-3000_TuneCP5_PSWeights_narrow_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2560000/98D7EDBC-5B86-884C-AE30-37AA7545DB62.root  HHTo2G2WTo2G4Q_M-3000_37AA7545DB62 2017 GluGluToRadionToHHTo2G2WTo2G4Q_M-3000 
+Queue 1
+Output = log/GluGluToRadionToHHTo2G2WTo2G4Q_M-3000/log_$(Cluster)_$(Process)_37AA7545DB62.stdout
+Error  = log/GluGluToRadionToHHTo2G2WTo2G4Q_M-3000/log_$(Cluster)_$(Process)_37AA7545DB62.stdout
+Log  = log/GluGluToRadionToHHTo2G2WTo2G4Q_M-3000/log_$(Cluster)_$(Process)_37AA7545DB62.stdout
+Arguments = $(Cluster) $(Process) /store/mc/RunIISummer20UL17MiniAODv2/GluGluToRadionToHHTo2G2WTo2G4Q_M-3000_TuneCP5_PSWeights_narrow_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2560000/98D7EDBC-5B86-884C-AE30-37AA7545DB62.root  HHTo2G2WTo2G4Q_M-3000_37AA7545DB62 2017 GluGluToRadionToHHTo2G2WTo2G4Q_M-3000 
+Queue 1

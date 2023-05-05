@@ -1,0 +1,29 @@
+Executable = test2.sh
+Universe = vanilla
+Notification = ERROR
+Should_Transfer_Files = YES
+WhenToTransferOutput = ON_EXIT
+Transfer_Input_Files = test2.sh
+x509userproxy = $ENV(X509_USER_PROXY)
+getenv      = True
++JobFlavour = "espresso"
+Output = log/UL17_R_gghh_M-450/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_R_gghh_M-450/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_R_gghh_M-450/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /store/mc/RunIISummer20UL17MiniAODv2/GluGluToRadionToHHTo2G2WTo2G4Q_M-450_TuneCP5_PSWeights_narrow_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/50000/F1914662-FC75-EA46-B6DE-8AB7407EC98E.root UL17_R_gghh_M-450_8AB7407EC98E UL17 UL17_R_gghh_M-450
+Queue 1
+Output = log/UL17_R_gghh_M-450/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_R_gghh_M-450/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_R_gghh_M-450/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /store/mc/RunIISummer20UL17MiniAODv2/GluGluToRadionToHHTo2G2WTo2G4Q_M-450_TuneCP5_PSWeights_narrow_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/50000/9F5FE31B-DE8C-F545-A001-30B74F75C13C.root UL17_R_gghh_M-450_30B74F75C13C UL17 UL17_R_gghh_M-450
+Queue 1
+Output = log/UL17_R_gghh_M-450/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_R_gghh_M-450/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_R_gghh_M-450/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /store/mc/RunIISummer20UL17MiniAODv2/GluGluToRadionToHHTo2G2WTo2G4Q_M-450_TuneCP5_PSWeights_narrow_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/50000/7C02CAAD-8F1A-8742-9813-D51F6CD5CFB5.root UL17_R_gghh_M-450_D51F6CD5CFB5 UL17 UL17_R_gghh_M-450
+Queue 1
+Output = log/UL17_R_gghh_M-1800/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_R_gghh_M-1800/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_R_gghh_M-1800/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /store/mc/RunIISummer20UL17MiniAODv2/GluGluToRadionToHHTo2G2WTo2G4Q_M-1800_TuneCP5_PSWeights_narrow_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2560000/7FCACA8F-4E75-3148-99FB-A6F5CB58D066.root UL17_R_gghh_M-1800_A6F5CB58D066 UL17 UL17_R_gghh_M-1800
+Queue 1

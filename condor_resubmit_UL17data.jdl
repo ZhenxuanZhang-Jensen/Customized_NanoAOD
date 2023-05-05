@@ -1,0 +1,524 @@
+Executable = condor_resubmit_UL17data.sh
+Universe = vanilla
+Notification = ERROR
+Should_Transfer_Files = YES
+WhenToTransferOutput = ON_EXIT
+Transfer_Input_Files = condor_resubmit_UL17data.sh
+x509userproxy = $ENV(X509_USER_PROXY)
+getenv      = True
++JobFlavour = "tomorrow"
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/7D4011CF-D8EE-6644-A009-01CD9C785013.root UL17_dataF_01CD9C785013 UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/61091E7E-028E-C84C-AB28-036DCD3C424C.root UL17_dataF_036DCD3C424C UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/D14C5FD2-BA8B-E74D-B0E5-05EB20156AC2.root UL17_dataF_05EB20156AC2 UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/551B2BD7-C66C-3740-8FEE-0A23F2C4E697.root UL17_dataF_0A23F2C4E697 UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/76C92133-ACCB-B948-94CF-0E12B2DD0B6A.root UL17_dataF_0E12B2DD0B6A UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/6508A577-4B95-AE43-AD7B-1086D601FD96.root UL17_dataF_1086D601FD96 UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/AEC6A9AB-1C2A-3E47-8C8E-14EED474426A.root UL17_dataF_14EED474426A UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/AE4CC0CE-DA9B-B54F-9768-1A797A2D2403.root UL17_dataF_1A797A2D2403 UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/E5A6FF55-24B9-1A43-A85B-1C2E963FA5A8.root UL17_dataF_1C2E963FA5A8 UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/F5EAC6B2-E146-5143-9F46-26E1F3C1885E.root UL17_dataF_26E1F3C1885E UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/DAAFA92D-81D9-C04D-B98D-28CA42BA96AF.root UL17_dataF_28CA42BA96AF UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/277C9AEA-68D7-7043-A5C6-292A1F4A728A.root UL17_dataF_292A1F4A728A UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/FF556C55-DAD0-E247-8E62-2A5381ACE2D2.root UL17_dataF_2A5381ACE2D2 UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/918114D8-5F39-FA41-B13D-2D11C34F3C2E.root UL17_dataF_2D11C34F3C2E UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/6C919BBD-FA32-3245-880B-2DB1CA83B2C9.root UL17_dataF_2DB1CA83B2C9 UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/CE4FDF26-DD0C-914B-8640-338EA4273646.root UL17_dataF_338EA4273646 UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/3F0524A5-4095-EE49-B805-3448D1E519A7.root UL17_dataF_3448D1E519A7 UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/F62616EB-B13B-5444-9F06-34CFC23FB9D1.root UL17_dataF_34CFC23FB9D1 UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/7D100D15-4829-0744-95C4-3A16FCD8C136.root UL17_dataF_3A16FCD8C136 UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/34804D44-300D-1842-B80B-3DC89BD4A4A3.root UL17_dataF_3DC89BD4A4A3 UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/83DF5948-4481-7041-992B-3EBCC6C018A7.root UL17_dataF_3EBCC6C018A7 UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/4B36BE76-28F0-444C-A572-3EE9611505DA.root UL17_dataF_3EE9611505DA UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/44CFF1AF-3A5B-7D48-A506-40AB8F0896D3.root UL17_dataF_40AB8F0896D3 UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/073898E9-0234-EA4B-96DF-416E58CD7614.root UL17_dataF_416E58CD7614 UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/8CD8A9A2-C5F9-FF4F-825E-43427366FF0A.root UL17_dataF_43427366FF0A UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/720F3572-CE88-5C4D-880B-43C72CC8D2D8.root UL17_dataF_43C72CC8D2D8 UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/99D5F6F6-596F-E549-9DAC-492A162BABAA.root UL17_dataF_492A162BABAA UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/CA669A8F-5D8B-4D49-8216-4DAF7E563F65.root UL17_dataF_4DAF7E563F65 UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/88FB5A62-150E-1B4F-BA64-549A6F6412F7.root UL17_dataF_549A6F6412F7 UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/28F2613A-BA04-634B-86AF-55A47F936DFB.root UL17_dataF_55A47F936DFB UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/426C4014-B452-4246-AF59-58FAC1A8A386.root UL17_dataF_58FAC1A8A386 UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/069A80A3-D7EB-3546-A59B-5C92345B065F.root UL17_dataF_5C92345B065F UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/6DF9FDEE-72E1-AC44-965D-5E8746FBB953.root UL17_dataF_5E8746FBB953 UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/236C9294-6108-EE4A-801A-69300F665D3B.root UL17_dataF_69300F665D3B UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/BF48762B-84FE-D246-B351-755C394C4870.root UL17_dataF_755C394C4870 UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/8FA335BC-39D5-FF46-8BCD-7FD75876BFD4.root UL17_dataF_7FD75876BFD4 UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/BFD1F26A-83DA-D347-A41C-81825593D06D.root UL17_dataF_81825593D06D UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/318A72F4-BD5E-6445-9FB7-858CB36B70DC.root UL17_dataF_858CB36B70DC UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/95A1F7C3-E7DE-DA47-A965-8620947C23A9.root UL17_dataF_8620947C23A9 UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/E1D91AE3-08BE-BE4C-B173-883C705A41F9.root UL17_dataF_883C705A41F9 UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/ECFA0A45-E4B4-E54A-BB0D-9014326F83D0.root UL17_dataF_9014326F83D0 UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/4D99649E-B766-BE4D-9919-90F30DAF867F.root UL17_dataF_90F30DAF867F UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/B6FDF811-8CA9-FC4E-A39E-9B46BE3B9C01.root UL17_dataF_9B46BE3B9C01 UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/027F400F-12A7-9742-A84E-9D70167DA6EF.root UL17_dataF_9D70167DA6EF UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/564F0A11-93F4-6647-A8C3-A0666855751A.root UL17_dataF_A0666855751A UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/EB0A6997-1B90-8848-8820-B36813F4EC22.root UL17_dataF_B36813F4EC22 UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/F285B0CA-E06F-E742-A890-BFE6D8B6326F.root UL17_dataF_BFE6D8B6326F UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/89685BC1-EE27-D544-9C8E-C021AE7D56D8.root UL17_dataF_C021AE7D56D8 UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/25994A29-CD6D-8D4E-93FF-C30DBD552743.root UL17_dataF_C30DBD552743 UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/1D75A60D-E7EC-5444-BC3E-C3C64CDE1500.root UL17_dataF_C3C64CDE1500 UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/EC6AF5EE-553E-DE41-9FD0-C444BFEBF8FB.root UL17_dataF_C444BFEBF8FB UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/FE61B875-7D3A-E44D-8F11-C4C30F488D0D.root UL17_dataF_C4C30F488D0D UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/1C6D8944-2651-824B-9F9B-C6B4B61EF369.root UL17_dataF_C6B4B61EF369 UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/9102C768-579D-944E-8D8D-C74D611A433D.root UL17_dataF_C74D611A433D UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/2A897ABB-17D3-7F4E-A4C7-C91BD4C9B786.root UL17_dataF_C91BD4C9B786 UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/FFD8E031-884C-DD41-A810-DB680DDDA4CF.root UL17_dataF_DB680DDDA4CF UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/4B50F2C4-A3F7-FB48-A730-DF200375230C.root UL17_dataF_DF200375230C UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/8CFE6EE0-82F2-9144-97E0-DFE1B39A84C4.root UL17_dataF_DFE1B39A84C4 UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/724025EB-5CD3-2D48-9121-E42C50F0EBB0.root UL17_dataF_E42C50F0EBB0 UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/E824F923-6234-C140-8583-E786EEE95EF1.root UL17_dataF_E786EEE95EF1 UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/A94FB118-ED2E-4745-88E7-EA52A3E25D10.root UL17_dataF_EA52A3E25D10 UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/EA11F095-482B-B64E-A1CB-EBFE9D1E8E1D.root UL17_dataF_EBFE9D1E8E1D UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/843ECD27-EDA8-D84B-B481-EC81CEBA8E23.root UL17_dataF_EC81CEBA8E23 UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/3BADFA83-5787-C241-A3A3-EDC8E18D598B.root UL17_dataF_EDC8E18D598B UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/087AA9ED-E597-834E-96CA-EEEF383200C8.root UL17_dataF_EEEF383200C8 UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/EA2D6FB5-E5D2-CA43-B0C4-EFD8B725CC32.root UL17_dataF_EFD8B725CC32 UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/62E82F2A-B219-A944-A87A-F63C3CDAF41F.root UL17_dataF_F63C3CDAF41F UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataF/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/7555D30C-E209-194A-9A99-FF6079D300DB.root UL17_dataF_FF6079D300DB UL17 UL17_dataF
+Queue 1
+Output = log/UL17_dataB/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataB/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataB/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/92965AA1-7918-9649-A066-A178B6EF9FEC.root UL17_dataB_A178B6EF9FEC UL17 UL17_dataB
+Queue 1
+Output = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/29410C1C-7B30-B744-B47E-04D2E15F00F7.root UL17_dataC_04D2E15F00F7 UL17 UL17_dataC
+Queue 1
+Output = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/502DB9ED-411C-B640-938E-054087173301.root UL17_dataC_054087173301 UL17 UL17_dataC
+Queue 1
+Output = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/2C5AE234-6F55-814C-9133-0BCD0FD39F76.root UL17_dataC_0BCD0FD39F76 UL17 UL17_dataC
+Queue 1
+Output = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/E5B18B23-B734-2040-9F3B-0F44E3C11721.root UL17_dataC_0F44E3C11721 UL17 UL17_dataC
+Queue 1
+Output = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/1345DF62-B4B2-D64F-A11C-10DC645D01EA.root UL17_dataC_10DC645D01EA UL17 UL17_dataC
+Queue 1
+Output = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/DB85D28B-BB13-A443-A977-1D2B5DD717B3.root UL17_dataC_1D2B5DD717B3 UL17 UL17_dataC
+Queue 1
+Output = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/77C7A5DC-AFCE-3D40-A552-3A091DF8EA19.root UL17_dataC_3A091DF8EA19 UL17 UL17_dataC
+Queue 1
+Output = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/3E79EBDC-8B0B-B547-A5C4-439130B1600B.root UL17_dataC_439130B1600B UL17 UL17_dataC
+Queue 1
+Output = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/DFA39C4A-5535-A54F-9BC4-51C1D931C7C0.root UL17_dataC_51C1D931C7C0 UL17 UL17_dataC
+Queue 1
+Output = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/E62B4361-38F1-1F40-8897-54AA08EDE50D.root UL17_dataC_54AA08EDE50D UL17 UL17_dataC
+Queue 1
+Output = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/13FF46C1-C4DF-3B4B-8288-55F6A5D2059D.root UL17_dataC_55F6A5D2059D UL17 UL17_dataC
+Queue 1
+Output = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/36B3A477-E04E-FC48-A335-5FCDFAD20310.root UL17_dataC_5FCDFAD20310 UL17 UL17_dataC
+Queue 1
+Output = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/0CADD476-B0D1-B842-8528-651BE62D8445.root UL17_dataC_651BE62D8445 UL17 UL17_dataC
+Queue 1
+Output = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/E3834D7B-509A-A94F-86E2-660AE6C67C32.root UL17_dataC_660AE6C67C32 UL17 UL17_dataC
+Queue 1
+Output = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/265E1CC5-F5BF-C34A-9938-6A55F3CD0685.root UL17_dataC_6A55F3CD0685 UL17 UL17_dataC
+Queue 1
+Output = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/43C79041-EDBF-B445-BD2E-7C8DDDA11C6A.root UL17_dataC_7C8DDDA11C6A UL17 UL17_dataC
+Queue 1
+Output = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/83BC249F-19EE-7A4B-B80F-7E05DA20F04E.root UL17_dataC_7E05DA20F04E UL17 UL17_dataC
+Queue 1
+Output = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/62AD9B6A-B393-AD41-9C10-7FBDCE92B002.root UL17_dataC_7FBDCE92B002 UL17 UL17_dataC
+Queue 1
+Output = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/29A61A5C-43E1-3644-BFAB-89A2F510AF69.root UL17_dataC_89A2F510AF69 UL17 UL17_dataC
+Queue 1
+Output = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/4540AB30-CA28-C34B-88B2-8B8ABBE52275.root UL17_dataC_8B8ABBE52275 UL17 UL17_dataC
+Queue 1
+Output = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/0F06E721-30E2-C846-850F-8FC01AABC9B1.root UL17_dataC_8FC01AABC9B1 UL17 UL17_dataC
+Queue 1
+Output = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/AEB44F5F-9D71-0B43-9192-A08D9874F067.root UL17_dataC_A08D9874F067 UL17 UL17_dataC
+Queue 1
+Output = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/8B00E752-7250-DB4E-827F-A89CDCFB68FB.root UL17_dataC_A89CDCFB68FB UL17 UL17_dataC
+Queue 1
+Output = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/80609E39-F843-454D-974D-AB4D053D0E57.root UL17_dataC_AB4D053D0E57 UL17 UL17_dataC
+Queue 1
+Output = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/44FC1D8F-7C6C-DF40-BBEB-BAB74E008D4B.root UL17_dataC_BAB74E008D4B UL17 UL17_dataC
+Queue 1
+Output = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/D02DD3E0-7CA0-5A49-93A4-BBD1F3A437CE.root UL17_dataC_BBD1F3A437CE UL17 UL17_dataC
+Queue 1
+Output = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/CDA511A7-2B4D-5D4E-B213-C25605B0B6AE.root UL17_dataC_C25605B0B6AE UL17 UL17_dataC
+Queue 1
+Output = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/29BD73E9-3BD9-5E46-93ED-C65C07750B3E.root UL17_dataC_C65C07750B3E UL17 UL17_dataC
+Queue 1
+Output = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/2F556C66-5C25-9847-AF44-CBD10B71C133.root UL17_dataC_CBD10B71C133 UL17 UL17_dataC
+Queue 1
+Output = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/9DC8DE90-C465-AE40-AEB3-D6766AFBE947.root UL17_dataC_D6766AFBE947 UL17 UL17_dataC
+Queue 1
+Output = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/159AEA0E-7206-0446-B8D1-DE9BB8810B41.root UL17_dataC_DE9BB8810B41 UL17 UL17_dataC
+Queue 1
+Output = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/E7276720-5EB4-0549-9B66-E5158719FCC6.root UL17_dataC_E5158719FCC6 UL17 UL17_dataC
+Queue 1
+Output = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/B60A55A5-C257-5442-B293-EEBFBA1EFB93.root UL17_dataC_EEBFBA1EFB93 UL17 UL17_dataC
+Queue 1
+Output = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Error  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Log  = log/UL17_dataC/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /eos/cms/store/group/phys_higgs/cmshgg/zhenxuan/custom_nanoAOD/UL17/rerun_local/3923B942-7231-964B-B4D3-F7D9C2347D53.root UL17_dataC_F7D9C2347D53 UL17 UL17_dataC
+Queue 1

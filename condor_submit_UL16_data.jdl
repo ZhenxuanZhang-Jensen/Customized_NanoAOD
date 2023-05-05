@@ -1,0 +1,29 @@
+Executable = condor_submit_UL16_data.sh
+Universe = vanilla
+Notification = ERROR
+Should_Transfer_Files = YES
+WhenToTransferOutput = ON_EXIT
+Transfer_Input_Files = condor_submit_UL16_data.sh
+x509userproxy = $ENV(X509_USER_PROXY)
+getenv      = True
++JobFlavour = "tomorrow"
+Output = log/UL16_dataG_postVFP/log_$(Cluster)_$(Process).stdout
+Error  = log/UL16_dataG_postVFP/log_$(Cluster)_$(Process).stdout
+Log  = log/UL16_dataG_postVFP/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /store/data/Run2016G/DoubleEG/MINIAOD/UL2016_MiniAODv2-v1/270000/4955C334-C52F-AD40-B73B-2E1067D4CBE1.root UL16_dataG_postVFP_2E1067D4CBE1 UL16 UL16_dataG_postVFP
+Queue 1
+Output = log/UL16_dataH_postVFP/log_$(Cluster)_$(Process).stdout
+Error  = log/UL16_dataH_postVFP/log_$(Cluster)_$(Process).stdout
+Log  = log/UL16_dataH_postVFP/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /store/data/Run2016G/DoubleEG/MINIAOD/UL2016_MiniAODv2-v1/270000/4955C334-C52F-AD40-B73B-2E1067D4CBE1.root UL16_dataH_postVFP_2E1067D4CBE1 UL16 UL16_dataH_postVFP
+Queue 1
+Output = log/UL16_dataH_postVFP/log_$(Cluster)_$(Process).stdout
+Error  = log/UL16_dataH_postVFP/log_$(Cluster)_$(Process).stdout
+Log  = log/UL16_dataH_postVFP/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /store/data/Run2016H/DoubleEG/MINIAOD/UL2016_MiniAODv2-v1/130000/C26E72C3-7D13-0147-9D67-47AA2B5EA0AE.root UL16_dataH_postVFP_47AA2B5EA0AE UL16 UL16_dataH_postVFP
+Queue 1
+Output = log/UL16_dataH_postVFP/log_$(Cluster)_$(Process).stdout
+Error  = log/UL16_dataH_postVFP/log_$(Cluster)_$(Process).stdout
+Log  = log/UL16_dataH_postVFP/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /store/data/Run2016H/DoubleEG/MINIAOD/UL2016_MiniAODv2-v1/270000/AD8371F1-C45E-9543-A7DF-5FD8F2F01E8A.root UL16_dataH_postVFP_5FD8F2F01E8A UL16 UL16_dataH_postVFP
+Queue 1
