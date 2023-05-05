@@ -1,5 +1,5 @@
 # NanoTuples
-
+## condor_setup*.py is to create the condor jobs
 Custom NanoAOD ntuple producers with additional boosted jet taggers and their PF candidates.
 
 <!-- TOC -->
