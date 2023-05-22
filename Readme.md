@@ -1,7 +1,7 @@
 # NanoTuples
 ## Zhenxuan usage:
 1. run get_Samples_toJson.py to get json file with all dataset file path
-2. run ```sh run_condor.sh```, in ```condor_setup_UL17_bkg.py```, change the json file name to put all the dataset file path into the jdl file
+2. run ```sh run_condor.sh```, in ```condor_setup_UL17_bkg.py```, change the input name of Json file to put all the dataset file path into the jdl file
 3. ```condor_submit *.jdl``` to submit the jobs to condor
 3.1 before submit, run:
 voms-proxy-init --voms cms --valid 168:00
