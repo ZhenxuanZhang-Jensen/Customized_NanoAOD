@@ -6,7 +6,7 @@ import subprocess
 # running_files_name = "das_samples_HT700_inf_QCD_calibration"
 # running_files_name = "das_samples_TT_jets_calibration"
 # running_files_name = "das_samples_signal_bkgs_bbgg_zzgg_tautaugg_calibration"
-running_files_name = "das_samples_NMSSM_XToYHTo2G2WTo4Q"
+running_files_name = "das_samples_NMSSM_XToYHTo2G2WTo2Q1L1Nu"
 with open(running_files_name + '.json', 'r') as f:
     sample_card = json.load(f)
 sys.path.append("Utils/python_utils/.")
@@ -114,6 +114,12 @@ Queue 1
 '''
 
 # Step - 1: Get the tar file
+# # # Step - 1.1: Make the tar file
+# # # Step - 1.2: Copy the tar file to eos;
+# # #                            if its cernbox then just cp command with full path will work
+# # #                            else you need to use the xrdcp command and path will start from /store/xxx
+# # # Step - 1.3: Remove the tar file from local
+# # # Step - 1.4: Remove the tar file from eos
 import makeTarFile  
 cmsswDirPath = os.environ['CMSSW_BASE']
 CMSSWRel = cmsswDirPath.split("/")[-1]

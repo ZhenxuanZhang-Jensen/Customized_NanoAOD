@@ -1,0 +1,14 @@
+Executable = condor_submit__das_samples_NMSSM_XToYHTo2G2WTo2Q1L1Nu.sh
+Universe = vanilla
+Notification = ERROR
+Should_Transfer_Files = YES
+WhenToTransferOutput = ON_EXIT
+Transfer_Input_Files = condor_submit__das_samples_NMSSM_XToYHTo2G2WTo2Q1L1Nu.sh
+x509userproxy = $ENV(X509_USER_PROXY)
+getenv      = True
++JobFlavour = "tomorrow"
+Output = log/NMSSM_XToYHTo2G2WTo2G2Q1L1Nu_MX-3000_MY-250/log_$(Cluster)_$(Process).stdout
+Error  = log/NMSSM_XToYHTo2G2WTo2G2Q1L1Nu_MX-3000_MY-250/log_$(Cluster)_$(Process).stdout
+Log  = log/NMSSM_XToYHTo2G2WTo2G2Q1L1Nu_MX-3000_MY-250/log_$(Cluster)_$(Process).stdout
+Arguments = $(Cluster) $(Process) /store/mc/RunIISummer20UL17MiniAODv2/NMSSM_XToYHTo2G2WTo2G2Q1L1Nu_MX-3000_MY-250_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/0336D83F-6455-F142-AD4E-D127CC615A7B.root NMSSM_XToYHTo2G2WTo2G2Q1L1Nu_MX-3000_MY-250_D127CC615A7B das_samples_NMSSM_XToYHTo2G2WTo2Q1L1Nu NMSSM_XToYHTo2G2WTo2G2Q1L1Nu_MX-3000_MY-250
+Queue 1
